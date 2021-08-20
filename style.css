@@ -427,3 +427,38 @@ section.history{
     }
         
 }
+
+@media (max-width: 420px){
+    .section-two{
+        padding: 1rem;
+    }
+
+    .home-intro h2{
+        font-size: 1.25rem;
+    }
+
+ 
+    section.timeline{
+        padding-left: 3rem;
+    }
+
+    section.history{
+        padding: 0;
+    }
+
+    section.article{
+        padding: 2rem;
+        line-height: 1.5rem;
+        margin: 3rem 0;
+    }
+
+    section.article h2{
+       font-size: 1rem;
+    }
+}
+
+@media (max-width: 340px){
+    header .menu{
+        min-width: 70%;
+    }
+}

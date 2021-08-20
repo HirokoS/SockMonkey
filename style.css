@@ -146,7 +146,7 @@ section.counters{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 1rem 20%;/*5rem;*/
+    padding: 1rem 20%;
 }
 .about-container{
     display: grid;
@@ -201,16 +201,39 @@ section.counters{
 
 /* Tutorial page */
 
-
 .tutorial-main{
     background-color: lightgray;
     width: 100%;
     color: #032769;
     background-size: cover;
-    padding: 0 2rem;
- }
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 5rem;   
+}
 
-.tutorial-main span{
+.tutorial-main img{
+    display: block;
+    width: 100%;
+    margin: auto auto;
+    float: left;
+    border-radius: 5%;    
+}
+
+.tutorial-container{
+    margin: auto auto;    
+}
+
+.tutorial-main{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(350px,1fr));
+    grid-gap: 1.75rem;
+    padding: 1rem 20%;   
+}
+
+.materials{
+    background-color: lightgray;
+    color: #032769;
     font-size: 1.5rem;
     font-weight: bold;
 }
@@ -226,20 +249,12 @@ section.counters{
     margin: 1.75rem;
 }
 
-.materials{
-    display: grid;
-    grid-template-columns: repeat(auto-fill,minmax(350px,1fr));
-    grid-gap: 1.75rem;
-    padding: 1rem 10%;
-
-}
-
-.materials ul{
-    padding-left: 2.75rem;
-}
-
 .kit ul{
     list-style-type: none;
+}
+
+.kit{
+    margin: 0 3rem;
 }
 
 /* Delete line 246-251 when uploading tutorial videos in tutorials page */
@@ -366,7 +381,7 @@ section.history{
     header .menu{
         height: 70%;
     }
-
+    
     img.logo{
         width: 60%;
     }

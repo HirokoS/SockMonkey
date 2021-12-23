@@ -207,9 +207,15 @@ section.counters{
     height: 5rem;
     width: 5rem;
     border-radius: 50%;
+    border: 5px double #555;
     display: inline-block;
     vertical-align: middle;
     margin: 1.75rem;
+}
+
+.icon-text {
+    font-size: 1.5rem;
+    color: #555;
 }
 
 .cards {
@@ -226,7 +232,7 @@ article {
 }
 
 .article-img {
-    height: 220px;
+    height: 15rem;/*12.5rem;*/
     width: 100%;
     object-fit: cover;
 }
@@ -235,7 +241,7 @@ article {
     position: absolute;
     bottom: 0;
     width: 100%;
-    padding: 5px;
+    padding: 0.3rem;
     background-color: rgba(255,255,255,0.5);
 }
 
@@ -374,6 +380,10 @@ section.history{
         padding: 10px;
         background-color: white;
     }
+
+    .icon-text{
+        font-size: 1rem;
+    }
         
 }
 
@@ -410,4 +420,9 @@ section.history{
     header .menu{
         min-width: 70%;
     }
+
+    .icon-text{
+        font-size: 0.7rem;
+    }
+
 }

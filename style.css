@@ -216,6 +216,7 @@ section.counters{
 .icon-text {
     font-size: 1.5rem;
     color: #555;
+    font-weight: 700;
 }
 
 .cards {
@@ -413,6 +414,12 @@ section.history{
 
     section.article h2{
        font-size: 1rem;
+    }
+
+    .icon{
+        width: 2rem;
+        height: 2rem;
+        
     }
 }
 

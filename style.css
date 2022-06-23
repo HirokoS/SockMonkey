@@ -248,8 +248,24 @@ article {
 
 
 /* News */
+.event-album {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px,1fr));
+    grid-gap: 1rem;
+    max-width: 900px;
+    margin: 0 auto 1.7rem;   
+}
+
+.video {
+    position: relative;
+}
 
 
+iframe {
+    height: 16rem;
+    width: 100%;
+    object-fit:cover;
+}
 
 /* Nidia's article*/
 
@@ -385,10 +401,14 @@ section.history{
     .icon-text{
         font-size: 1rem;
     }
-        
+       
 }
 
 @media (max-width: 420px){
+    header .btn{
+        margin-right: 3rem;
+    }
+
     .section-two{
         padding: 1rem;
     }
@@ -421,11 +441,16 @@ section.history{
         height: 2rem;
         
     }
+
 }
 
 @media (max-width: 340px){
     header .menu{
         min-width: 70%;
+    }
+
+    header .btn{
+        margin-right: 7.5rem;
     }
 
     .icon-text{
